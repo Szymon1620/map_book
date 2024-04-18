@@ -8,3 +8,10 @@ def add_new_user(users:list)-> None:
     new_posts: int = int(input("Enter your posts: "))
     new_user: dict = {"name": new_name, "surname": new_surname, "posts": new_posts}
     users.append(new_user)
+
+    def search_user(users) -> None:
+        kogo
+        szukasz = input("kogo szukasz: ")
+        for user in users:
+            if user['name'] == kogo_szukasz:
+                users.remove(user)
